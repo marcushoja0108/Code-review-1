@@ -1,0 +1,13 @@
+*** Store endringer
+bruk bootstrap i stedet/tillegg for css
+
+** Medium endringer
+refactor koden til å deles opp i filer for model, view og controller. Evt mapper for hvert view etc
+
+
+* Små endringer
+bruk const i stedet for var i model
+integrer shoppingCart som et eget object i model.
+lag en funksjon for å vise antallet av et item i cart. Da slipper vi cart variabel på hvert item.
+    - denne kan loope gjennom arrayet og hver gang et visst navn dukker opp går det en counter opp.
+ikke bruk alert for å varsle om at noe er out of stock
